@@ -14,12 +14,7 @@ function Header() {
         </p>
       </div>
       <div>
-        <Image
-          src="/images/charity-vector.png"
-          width={1500}
-          height={1500}
-          alt="header"
-        />
+        <Image src="/images/logo.png" width={1500} height={1500} alt="header" />
       </div>
     </div>
   );
