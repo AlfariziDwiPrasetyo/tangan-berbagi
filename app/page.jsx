@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Goals from "@/components/Goals";
 import Header from "@/components/Header";
 import Member from "@/components/Member";
@@ -11,6 +12,7 @@ export default function Home() {
       <Goals />
       <VisionMission />
       <Member />
+      <Contact />
     </div>
   );
 }

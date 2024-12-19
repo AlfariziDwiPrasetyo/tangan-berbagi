@@ -7,10 +7,17 @@ function Navbar() {
   return (
     <header>
       <nav className="flex justify-between items-center gap-3 border border-b-2 px-5">
-        <Image src={"/images/logo.svg"} width={80} height={80} alt="nav-logo" />
+        <a href="/">
+          <Image
+            src={"/images/logo.svg"}
+            width={80}
+            height={80}
+            alt="nav-logo"
+          />
+        </a>
         <ul className="hidden md:flex justify-center gap-3">
-          {navMenu.map((menu, key) => (
-            <a key={key} href={menu.url}>
+          {navMenu.map((menu) => (
+            <a className="hover:text-green-600" key={menu.id} href={menu.url}>
               <li>{menu.name}</li>
             </a>
           ))}
