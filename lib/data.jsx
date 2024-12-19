@@ -11,7 +11,7 @@ const listMember = [
     name: "Anang Nurul Lafadz, Dwi Anggraeni",
   },
   {
-    imageUrl: "/images/member/sekretaris.jpg",
+    imageUrl: "/images/member/sekretaris2.jpg",
     title: "Sekretaris",
     name: "Dea Nurjiana",
   },

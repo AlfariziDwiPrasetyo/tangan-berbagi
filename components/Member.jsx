@@ -10,7 +10,7 @@ function Member() {
       </h2>
       <div className="w-full max-w-4xl">
         <Image
-          src={"/images/member/allMember.jpeg"}
+          src={"/images/member/allMember2.jpg"}
           width={1200}
           height={400}
           alt="all member"
