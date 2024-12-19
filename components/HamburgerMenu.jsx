@@ -10,7 +10,7 @@ function HamburgerMenu() {
   };
 
   return (
-    <div className="relative">
+    <div className="relative md:hidden">
       {/* Hamburger Icon */}
       <button
         onClick={toggleMenu}
