@@ -42,7 +42,7 @@ function Footer() {
                 <span>📧</span> info@tanganberbagi.org
               </li>
               <li>
-                <span>📞</span> +62 857-0042-9802
+                <span>📞</span> +62 838-4557-9401
               </li>
               <li className="flex items-center gap-3">
                 <FaInstagram />{" "}

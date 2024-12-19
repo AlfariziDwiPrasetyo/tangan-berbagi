@@ -15,6 +15,7 @@ function HamburgerMenu() {
       <button
         onClick={toggleMenu}
         className="flex flex-col justify-center items-center w-10 h-10 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+        aria-label="Toggle Menu"
       >
         <div
           className={`h-1 w-8 bg-green-600 rounded transition-transform duration-300 ${
@@ -36,13 +37,19 @@ function HamburgerMenu() {
       {/* Dropdown Menu */}
       {isOpen && (
         <div className="absolute top-12 right-0 bg-white shadow-lg rounded-lg py-2 w-48">
-          <ul>
+          <ul className="flex flex-col">
             {navMenu.map((menu) => (
-              <a key={menu.id} href={menu.url}>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+              <li
+                key={menu.id}
+                className="border-b border-gray-200 last:border-0"
+              >
+                <a
+                  href={menu.url}
+                  className="block px-4 py-2 hover:bg-gray-100 text-gray-700"
+                >
                   {menu.name}
-                </li>
-              </a>
+                </a>
+              </li>
             ))}
           </ul>
         </div>
