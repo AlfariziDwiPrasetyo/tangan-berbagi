@@ -22,7 +22,9 @@ function Navbar() {
             </a>
           ))}
         </ul>
-        <HamburgerMenu />
+        <div className="md:hidden">
+          <HamburgerMenu />
+        </div>
       </nav>
     </header>
   );

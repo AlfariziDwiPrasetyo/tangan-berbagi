@@ -3,7 +3,7 @@ import React from "react";
 
 function VisionMission() {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row py-12">
       <Image
         src={"/images/visi-misi.svg"}
         alt="visi-misi"

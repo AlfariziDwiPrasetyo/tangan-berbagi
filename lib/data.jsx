@@ -1,8 +1,9 @@
 const navMenu = [
   { id: 1, name: "Home", url: "/" },
-  { id: 2, name: "Keanggotaan", url: "/keanggotaan" },
-  { id: 3, name: "Kegiatan", url: "/kegiatan" },
-  { id: 4, name: "Kontak", url: "/kontak" },
+  { id: 2, name: "Profil", url: "/profil" },
+  { id: 3, name: "Keanggotaan", url: "/keanggotaan" },
+  { id: 4, name: "Kegiatan", url: "/kegiatan" },
+  { id: 5, name: "Kontak", url: "/kontak" },
 ];
 
 const listMember = [

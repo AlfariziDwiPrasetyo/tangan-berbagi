@@ -1,5 +1,6 @@
 import { navMenu } from "@/lib/data";
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -42,6 +43,12 @@ function Footer() {
               </li>
               <li>
                 <span>📞</span> +62 857-0042-9802
+              </li>
+              <li className="flex items-center gap-3">
+                <FaInstagram />{" "}
+                <a href="https://www.instagram.com/tanganberbagi_mj22b?igsh=djBsMzh2enNlbTc%3D">
+                  <span className="underline">@tanganberbagi_mj22b</span>
+                </a>
               </li>
             </ul>
           </div>
