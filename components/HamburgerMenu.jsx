@@ -38,12 +38,11 @@ function HamburgerMenu() {
         <div className="absolute top-12 right-0 bg-white shadow-lg rounded-lg py-2 w-48">
           <ul>
             {navMenu.map((menu) => (
-              <li
-                key={menu.id}
-                className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
-              >
-                <a href={menu.url}>{menu.name}</a>
-              </li>
+              <a key={menu.id} href={menu.url}>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                  {menu.name}
+                </li>
+              </a>
             ))}
           </ul>
         </div>
