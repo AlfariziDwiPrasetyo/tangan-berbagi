@@ -45,8 +45,8 @@ function Contact() {
                 </li>
                 <li className="flex items-center gap-3">
                   <FaInstagram />{" "}
-                  <a href="https://www.instagram.com/riyaaaaanhdyt/">
-                    <span className="underline">@riyaaaaanhdyt</span>
+                  <a href="https://www.instagram.com/tanganberbagi_mj22b?igsh=djBsMzh2enNlbTc%3D">
+                    <span className="underline">@tanganberbagi_mj22b</span>
                   </a>
                 </li>
               </ul>

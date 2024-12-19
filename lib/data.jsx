@@ -1,7 +1,8 @@
 const navMenu = [
   { id: 1, name: "Home", url: "/" },
   { id: 2, name: "Keanggotaan", url: "/keanggotaan" },
-  { id: 3, name: "Kontak", url: "/kontak" },
+  { id: 3, name: "Kegiatan", url: "/kegiatan" },
+  { id: 4, name: "Kontak", url: "/kontak" },
 ];
 
 const listMember = [
@@ -47,4 +48,17 @@ const listMember = [
   },
 ];
 
-export { navMenu, listMember };
+const documentationPhotos = [
+  { url: "/images/documentation/1.jpg" },
+  { url: "/images/documentation/2.jpg" },
+  { url: "/images/documentation/3.jpg" },
+  { url: "/images/documentation/4.jpg" },
+  { url: "/images/documentation/5.jpg" },
+  { url: "/images/documentation/6.jpg" },
+  { url: "/images/documentation/7.jpg" },
+  { url: "/images/documentation/8.jpg" },
+  { url: "/images/documentation/9.jpg" },
+  { url: "/images/documentation/10.jpg" },
+];
+
+export { navMenu, listMember, documentationPhotos };

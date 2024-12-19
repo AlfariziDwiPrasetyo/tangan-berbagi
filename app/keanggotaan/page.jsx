@@ -1,4 +1,3 @@
-import Meeting from "@/components/keanggotaan/Meeting";
 import StructureOrganization from "@/components/keanggotaan/StructureOrganization";
 import Image from "next/image";
 import React from "react";
@@ -15,12 +14,6 @@ function page() {
           className="rounded-lg object-cover"
         />
         <StructureOrganization />
-
-        {/* Rapat */}
-        <Meeting />
-        {/*  */}
-
-        {/* ART */}
       </div>
     </div>
   );
