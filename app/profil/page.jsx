@@ -1,5 +1,7 @@
+"use client";
 import Goals from "@/components/Goals";
 import LogoMeaningSection from "@/components/profile/LogoMeaningSection";
+import ScrollProgress from "@/components/ui/scroll-progress";
 import VisionMission from "@/components/VisionMission";
 import Image from "next/image";
 import React from "react";
@@ -7,9 +9,11 @@ import React from "react";
 function page() {
   return (
     <div className="py-12 flex flex-col items-center justify-center">
+      <ScrollProgress className="top-[77px]" />
+
       {/* logo dan deskripsi */}
       {/* deskripsi */}
-      <div className="py-12 flex flex-col justify-center text-center max-w-x px-5 md:px-12">
+      <div className="py-32 flex flex-col justify-center text-center max-w-x px-5 md:px-12">
         <h2 className="text-2xl font-bold text-green-600">
           Deskripsi Organisasi
         </h2>

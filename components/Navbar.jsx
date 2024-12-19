@@ -6,7 +6,7 @@ import { navMenu } from "@/lib/data";
 function Navbar() {
   return (
     <header>
-      <nav className="flex justify-between items-center gap-3 border border-b-2 px-5">
+      <nav className="flex bg-white justify-between items-center gap-3 border border-b-2 px-5 fixed w-full z-50">
         <a href="/">
           <Image
             src={"/images/logo.svg"}
